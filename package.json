@@ -1,0 +1,21 @@
+{
+  "name": "matheusvellone-js-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusVellone/javascript-style-guide.git"
+  },
+  "author": "Matheus Vellone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusVellone/javascript-style-guide/issues"
+  },
+  "homepage": "https://github.com/MatheusVellone/javascript-style-guide#readme",
+  "peerDependencies": {
+    "eslint": ">= 4",
+    "eslint-config-airbnb-base": ">= 11",
+    "eslint-plugin-import": ">= 2"
+  }
+}

@@ -1,0 +1,83 @@
+module.exports = {
+    parserOptions: {
+        ecmaVersion: 6,
+    },
+    extends: [
+        'airbnb-base',
+    ],
+    rules: {
+        'no-multiple-empty-lines': [
+            'error',
+            {
+                max: 1
+            }
+        ],
+        'import/no-dynamic-require': [
+            0
+        ],
+        'no-underscore-dangle': [
+            0,
+            {
+                allowAfterThis: true,
+                allowAfterSuper: true
+            }
+        ],
+        'import/no-extraneous-dependencies': [
+            'error',
+            {
+                devDependencies: true
+            }
+        ],
+        'object-shorthand': [
+            'warn'
+        ],
+        'arrow-body-style': [
+            'warn',
+            'always'
+        ],
+        indent: [
+            'error',
+            4,
+            {
+                SwitchCase: 1
+            }
+        ],
+        'comma-dangle': [
+            'error',
+            {
+                arrays: 'always-multiline',
+                objects: 'always-multiline',
+                imports: 'always-multiline',
+                exports: 'always-multiline',
+                functions: 'never'
+            }
+        ],
+        quotes: [
+            'error',
+            'single'
+        ],
+        'no-console': [
+            'error'
+        ],
+        'linebreak-style': [
+            0
+        ],
+        semi: [
+            'error',
+            'always'
+        ],
+        'max-len': [
+            'error',
+            {
+                code: 80,
+                tabWidth: 4,
+                ignoreComments: true,
+                ignoreTrailingComments: true,
+                ignoreUrls: true,
+                ignoreStrings: true,
+                ignoreTemplateLiterals: true,
+                ignoreRegExpLiterals: true,
+            },
+        ],
+    }
+};
