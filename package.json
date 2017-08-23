@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-matheusvellone-base",
   "version": "1.0.1",
-  "description": "",
+  "description": "Matheus Vellone's ESLint config",
   "main": "backend.js",
   "repository": {
     "type": "git",
@@ -12,12 +12,15 @@
   "bugs": {
     "url": "https://github.com/MatheusVellone/javascript-style-guide/issues"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "pagarme",
+    "javascript",
+    "styleguide"
+  ],
   "homepage": "https://github.com/MatheusVellone/javascript-style-guide#readme",
-  "peerDependencies": {
-    "eslint": ">= 4",
-    "eslint-plugin-import": ">= 2"
-  },
   "dependencies": {
-    "eslint-config-airbnb-base": "^11.0.0"
+    "eslint-config-airbnb-base": "^11.3.2"
   }
 }
