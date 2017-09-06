@@ -59,6 +59,11 @@ module.exports = {
         'no-console': [
             'error'
         ],
+        'no-param-reassign': [
+            'error', {
+                'props': false,
+            }
+        ],
         'linebreak-style': [
             0
         ],
@@ -69,7 +74,7 @@ module.exports = {
         'max-len': [
             'error',
             {
-                code: 80,
+                code: 120,
                 tabWidth: 4,
                 ignoreComments: true,
                 ignoreTrailingComments: true,
