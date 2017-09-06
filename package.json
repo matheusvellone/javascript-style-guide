@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-matheusvellone-base",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Matheus Vellone's ESLint config",
   "main": "backend.js",
   "repository": {
