@@ -37,7 +37,7 @@ module.exports = {
         ],
         indent: [
             'error',
-            4,
+            2,
             {
                 SwitchCase: 1
             }
@@ -57,7 +57,7 @@ module.exports = {
             'single'
         ],
         'no-console': [
-            'error'
+            'warn'
         ],
         'no-param-reassign': [
             'error', {
@@ -69,7 +69,7 @@ module.exports = {
         ],
         semi: [
             'error',
-            'always'
+            'never'
         ],
         'max-len': [
             'error',
