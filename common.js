@@ -32,8 +32,7 @@ module.exports = {
             'warn'
         ],
         'arrow-body-style': [
-            'warn',
-            'always'
+            0
         ],
         indent: [
             'error',
