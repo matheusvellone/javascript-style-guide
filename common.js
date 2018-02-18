@@ -56,7 +56,7 @@ module.exports = {
             'single'
         ],
         'no-console': [
-            'warn'
+            'error'
         ],
         'no-param-reassign': [
             'error', {
