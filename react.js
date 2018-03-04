@@ -19,5 +19,10 @@ module.exports = {
         require.resolve('./common'),
         "plugin:react/recommended",
     ],
-    parser: "babel-eslint"
+    parser: "babel-eslint",
+    rules: {
+        'react/no-access-state-in-setstate': [
+            'error'
+        ],
+    }
 };
