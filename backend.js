@@ -1,15 +1,9 @@
 module.exports = {
-    env: {
-        es6: true,
-        node: true
-    },
-    extends: [
-        './common',
-    ].map(require.resolve),
-    rules: {
-    	strict: [
-            'error',
-            'never',
-        ],
-    },
+  env: {
+    es6: true,
+    node: true
+  },
+  extends: [
+    './common',
+  ].map(require.resolve),
 };

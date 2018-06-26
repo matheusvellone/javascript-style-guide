@@ -21,6 +21,6 @@
   ],
   "homepage": "https://github.com/MatheusVellone/javascript-style-guide#readme",
   "dependencies": {
-    "eslint-config-airbnb-base": "^11.3.2"
+    "eslint-config-airbnb-base": "13.0.0"
   }
 }
