@@ -22,5 +22,6 @@ module.exports = {
   parser: "babel-eslint",
   rules: {
     'react/no-access-state-in-setstate': ['error'],
+    'react/no-unused-prop-types': ['error'],
   }
 };
