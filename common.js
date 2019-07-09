@@ -45,13 +45,5 @@ module.exports = {
         ignoreRegExpLiterals: true,
       },
     ],
-    'sort-keys': [
-      'warn',
-      'asc',
-      {
-        'caseSensitive': true,
-        'natural': false,
-      }
-    ]
   }
 };
