@@ -14,6 +14,7 @@ module.exports = {
   },
   plugins: [
     "react",
+    "react-hooks",
   ],
   extends: [
     require.resolve('./common'),
