@@ -24,5 +24,6 @@ module.exports = {
   rules: {
     'react/no-access-state-in-setstate': ['error'],
     'react/no-unused-prop-types': ['error'],
-  }
-};
+    'import/prefer-default-export': ['off'],
+  },
+}
